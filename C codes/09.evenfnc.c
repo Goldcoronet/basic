@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void even(int n){
     int x = n;
     if(x ==1)
@@ -13,13 +14,7 @@ void even(int n){
     }
 }
 
-int recursion(){
-}
-
 void main(){
-    //even(30);
-    int _age;
-    _age = 3;
-    printf("%d", _age);
+    even(30);
 }
 
